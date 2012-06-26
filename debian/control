@@ -1,0 +1,17 @@
+Source: python-celery
+Section: python
+Priority: optional
+Maintainer: Roman Ovchinnikov <coolthecold@gmail.com>
+XS-Python-Version: >= 2.6
+Build-Depends: debhelper (>= 7.0.50), python-all-dev (>= 2.6)
+Standards-Version: 3.9.1
+Homepage: http://celeryproject.org/
+Vcs-Git: git://github.com/celery/celery.git
+Vcs-Browser: https://github.com/celery/celery
+
+Package: python-celery
+Architecture: all
+Depends: ${python:Depends}
+Provides: ${python:Provides}
+Breaks: ${python:Breaks}
+Description: Celery is an asynchronous task queue/job queue based on distributed message passing.
